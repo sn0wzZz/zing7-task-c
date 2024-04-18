@@ -38,7 +38,7 @@ export default function Navigation() {
         menuIsOpen
           ? 'bg-white '
           : 'bg-white'
-      } ${menuIsOpen ? 'fixed' : 'sticky'} p-2 md:p-5 xl:p-5 `}
+      } ${menuIsOpen ? 'fixed' : 'sticky'} p-2 md:p-2 xl:p-2 `}
     >
       <div className='flex justify-between xl:justify-around items-center w-[100%] 2xl:w-[80%]'>
         <div>

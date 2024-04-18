@@ -13,7 +13,7 @@ export default function Form() {
       <h2 className='text-white my-10'>
         Готиви ли сте да работим заедно?
       </h2>
-      <p className='text-white'>
+      <p className='text-white '>
         Оставете вашият телефон и ние ще се свържем с вас, за да отговорим на
         всички въпроси
       </p>
