@@ -6,6 +6,7 @@ import Features from './features/Features'
 import Form from './form/Form'
 import Section from './ui/Section'
 import Others from './others/Others'
+import { Toaster } from 'react-hot-toast'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Section>
         <Others />
       </Section>
+      <Toaster/>
     </>
   )
 }

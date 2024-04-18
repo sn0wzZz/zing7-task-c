@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        taclet: '1101px',
+        tablet: '1101px',
+        xs: '490px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -19,11 +20,18 @@ const config: Config = {
       fontFamily: {
         SpaceGrotesk: ['Space Grotesk', 'sans-serif'],
       },
+      transitionProperty: {
+        height: 'max-height',
+      },
       colors: {
         paragraph: '#083c2f',
         heading: '#01303a',
         section: '#394649',
-        menu: '#3b4a47'
+        menu: '#3b4a47',
+        button: {
+          100: '#e7f874',
+          200: '#b7c45c',
+        },
       },
     },
   },
