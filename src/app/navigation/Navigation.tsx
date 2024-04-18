@@ -40,7 +40,7 @@ export default function Navigation() {
           : 'bg-white'
       } ${menuIsOpen ? 'fixed' : 'sticky'} p-2 md:p-5 xl:p-10 `}
     >
-      <div className='flex justify-around items-center w-[100%] 2xl:w-[80%]'>
+      <div className='flex justify-between xl:justify-around items-center w-[100%] 2xl:w-[80%]'>
         <div>
           <h3 className='font-bold text-[40px] text-heading'>Website</h3>
         </div>
