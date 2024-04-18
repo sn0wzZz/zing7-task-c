@@ -9,7 +9,7 @@ export default function Form() {
   const notify = () => toast.success('Получихме Вашият телефон!', {position: 'top-right', duration:2000})
 
   return (
-    <div className='h-auto w-[80%] md:w-[50%] lg:w-[50%] xl:w-[40%] 2xl:w-[35%] flex  flex-col justify-center text-center py-10 xl:py-24'>
+    <div className='h-auto w-[80%] md:w-[50%] lg:w-[50%] xl:w-[40%] 2xl:w-[35%] flex  flex-col justify-center text-center py-10 xl:py-12'>
       <h2 className='text-white my-10'>
         Готиви ли сте да работим заедно?
       </h2>
