@@ -66,7 +66,7 @@ Extra Large: 2xl: 1536px and up
   }
   p{
     @apply text-paragraph font-SpaceGrotesk 
-    text-xl md:text-lg xl:text-xl
+    text-base md:text-lg xl:text-xl
   }
 }
 
